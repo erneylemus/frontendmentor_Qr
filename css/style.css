@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Bebas+Neue&family=League+Spartan:wght@400;500;700&family=Outfit:wght@400;700&family=Raleway:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap');
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Grayishblue: hsl(219, 100%, 86%);
+    --Darkblue: hsl(218, 44%, 22%);
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+    font-family: 15px;
+    background-color: var(--Grayishblue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    min-height: 100vh
+}
+.container {
+    width: 320px;
+    background: var(--White);
+    border-radius: 16px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 16px;
+}
+
+h3 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 1.4rem;
+    color: var(--Darkblue);
+}
+
+p {
+    text-align: center;
+    color: var( --Grayishblue);
+    padding-bottom: 20px;
+}
